@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDDC99221DF864DA0059B140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99211DF864DA0059B140 /* AppDelegate.swift */; };
+		CDDC99241DF864DA0059B140 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99231DF864DA0059B140 /* GameViewController.swift */; };
+		CDDC99271DF864DA0059B140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99251DF864DA0059B140 /* Main.storyboard */; };
+		CDDC992A1DF864DA0059B140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99281DF864DA0059B140 /* LaunchScreen.storyboard */; };
+		CDDC992F1DF864DB0059B140 /* InstaPlant.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CDDC992E1DF864DB0059B140 /* InstaPlant.app */; };
+		CDDC99351DF864DB0059B140 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99331DF864DB0059B140 /* Interface.storyboard */; };
+		CDDC993C1DF864DB0059B140 /* InstaPlant Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDDC993B1DF864DB0059B140 /* InstaPlant Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDDC99411DF864DB0059B140 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99401DF864DB0059B140 /* InterfaceController.swift */; };
+		CDDC99431DF864DB0059B140 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99421DF864DB0059B140 /* ExtensionDelegate.swift */; };
+		CDDC994C1DF864DB0059B140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC994B1DF864DB0059B140 /* AppDelegate.swift */; };
+		CDDC994E1DF864DB0059B140 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC994D1DF864DB0059B140 /* GameViewController.swift */; };
+		CDDC99511DF864DB0059B140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC994F1DF864DB0059B140 /* Main.storyboard */; };
+		CDDC995A1DF864DB0059B140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99591DF864DB0059B140 /* AppDelegate.swift */; };
+		CDDC995C1DF864DB0059B140 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC995B1DF864DB0059B140 /* GameViewController.swift */; };
+		CDDC995F1DF864DB0059B140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDC995D1DF864DB0059B140 /* Main.storyboard */; };
+		CDDC99611DF864DB0059B140 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99161DF864DA0059B140 /* Actions.sks */; };
+		CDDC99621DF864DB0059B140 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99161DF864DA0059B140 /* Actions.sks */; };
+		CDDC99631DF864DB0059B140 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99161DF864DA0059B140 /* Actions.sks */; };
+		CDDC99641DF864DB0059B140 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99171DF864DA0059B140 /* GameScene.sks */; };
+		CDDC99651DF864DB0059B140 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99171DF864DA0059B140 /* GameScene.sks */; };
+		CDDC99661DF864DB0059B140 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99171DF864DA0059B140 /* GameScene.sks */; };
+		CDDC99671DF864DB0059B140 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99171DF864DA0059B140 /* GameScene.sks */; };
+		CDDC99681DF864DB0059B140 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99181DF864DA0059B140 /* GameScene.swift */; };
+		CDDC99691DF864DB0059B140 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99181DF864DA0059B140 /* GameScene.swift */; };
+		CDDC996A1DF864DB0059B140 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99181DF864DA0059B140 /* GameScene.swift */; };
+		CDDC996B1DF864DB0059B140 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC99181DF864DA0059B140 /* GameScene.swift */; };
+		CDDC996C1DF864DB0059B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99191DF864DA0059B140 /* Assets.xcassets */; };
+		CDDC996D1DF864DB0059B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99191DF864DA0059B140 /* Assets.xcassets */; };
+		CDDC996E1DF864DB0059B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99191DF864DA0059B140 /* Assets.xcassets */; };
+		CDDC996F1DF864DB0059B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDC99191DF864DA0059B140 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDDC99301DF864DB0059B140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDDC99111DF864DA0059B140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDDC992D1DF864DA0059B140;
+			remoteInfo = "watchOS App";
+		};
+		CDDC993D1DF864DB0059B140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDDC99111DF864DA0059B140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDDC993A1DF864DB0059B140;
+			remoteInfo = "watchOS Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDDC99751DF864DB0059B140 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDDC993C1DF864DB0059B140 /* InstaPlant Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99791DF864DB0059B140 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CDDC992F1DF864DB0059B140 /* InstaPlant.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDDC99161DF864DA0059B140 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CDDC99171DF864DA0059B140 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CDDC99181DF864DA0059B140 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CDDC99191DF864DA0059B140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDC991E1DF864DA0059B140 /* InstaPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC99211DF864DA0059B140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDC99231DF864DA0059B140 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CDDC99261DF864DA0059B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDC99291DF864DA0059B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDDC992B1DF864DA0059B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC992E1DF864DB0059B140 /* InstaPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC99341DF864DB0059B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CDDC99361DF864DB0059B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC993B1DF864DB0059B140 /* InstaPlant Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "InstaPlant Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC99401DF864DB0059B140 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CDDC99421DF864DB0059B140 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CDDC99441DF864DB0059B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC99491DF864DB0059B140 /* InstaPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC994B1DF864DB0059B140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDC994D1DF864DB0059B140 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CDDC99501DF864DB0059B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDC99521DF864DB0059B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDC99571DF864DB0059B140 /* InstaPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDC99591DF864DB0059B140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDC995B1DF864DB0059B140 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CDDC995E1DF864DB0059B140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDC99601DF864DB0059B140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDC991B1DF864DA0059B140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99381DF864DB0059B140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99461DF864DB0059B140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99541DF864DB0059B140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDC99101DF864DA0059B140 = {
+			isa = PBXGroup;
+			children = (
+				CDDC99151DF864DA0059B140 /* Shared */,
+				CDDC99201DF864DA0059B140 /* iOS */,
+				CDDC99321DF864DB0059B140 /* watchOS App */,
+				CDDC993F1DF864DB0059B140 /* watchOS Extension */,
+				CDDC994A1DF864DB0059B140 /* tvOS */,
+				CDDC99581DF864DB0059B140 /* macOS */,
+				CDDC991F1DF864DA0059B140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDC99151DF864DA0059B140 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC99161DF864DA0059B140 /* Actions.sks */,
+				CDDC99171DF864DA0059B140 /* GameScene.sks */,
+				CDDC99181DF864DA0059B140 /* GameScene.swift */,
+				CDDC99191DF864DA0059B140 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CDDC991F1DF864DA0059B140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC991E1DF864DA0059B140 /* InstaPlant.app */,
+				CDDC992E1DF864DB0059B140 /* InstaPlant.app */,
+				CDDC993B1DF864DB0059B140 /* InstaPlant Extension.appex */,
+				CDDC99491DF864DB0059B140 /* InstaPlant.app */,
+				CDDC99571DF864DB0059B140 /* InstaPlant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDC99201DF864DA0059B140 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC99211DF864DA0059B140 /* AppDelegate.swift */,
+				CDDC99231DF864DA0059B140 /* GameViewController.swift */,
+				CDDC99251DF864DA0059B140 /* Main.storyboard */,
+				CDDC99281DF864DA0059B140 /* LaunchScreen.storyboard */,
+				CDDC992B1DF864DA0059B140 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CDDC99321DF864DB0059B140 /* watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC99331DF864DB0059B140 /* Interface.storyboard */,
+				CDDC99361DF864DB0059B140 /* Info.plist */,
+			);
+			path = "watchOS App";
+			sourceTree = "<group>";
+		};
+		CDDC993F1DF864DB0059B140 /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC99401DF864DB0059B140 /* InterfaceController.swift */,
+				CDDC99421DF864DB0059B140 /* ExtensionDelegate.swift */,
+				CDDC99441DF864DB0059B140 /* Info.plist */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		CDDC994A1DF864DB0059B140 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC994B1DF864DB0059B140 /* AppDelegate.swift */,
+				CDDC994D1DF864DB0059B140 /* GameViewController.swift */,
+				CDDC994F1DF864DB0059B140 /* Main.storyboard */,
+				CDDC99521DF864DB0059B140 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		CDDC99581DF864DB0059B140 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDDC99591DF864DB0059B140 /* AppDelegate.swift */,
+				CDDC995B1DF864DB0059B140 /* GameViewController.swift */,
+				CDDC995D1DF864DB0059B140 /* Main.storyboard */,
+				CDDC99601DF864DB0059B140 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDC991D1DF864DA0059B140 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC997A1DF864DB0059B140 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				CDDC991A1DF864DA0059B140 /* Sources */,
+				CDDC991B1DF864DA0059B140 /* Frameworks */,
+				CDDC991C1DF864DA0059B140 /* Resources */,
+				CDDC99791DF864DB0059B140 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDDC99311DF864DB0059B140 /* PBXTargetDependency */,
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = CDDC991E1DF864DA0059B140 /* InstaPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDDC992D1DF864DA0059B140 /* watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC99761DF864DB0059B140 /* Build configuration list for PBXNativeTarget "watchOS App" */;
+			buildPhases = (
+				CDDC992C1DF864DA0059B140 /* Resources */,
+				CDDC99751DF864DB0059B140 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDDC993E1DF864DB0059B140 /* PBXTargetDependency */,
+			);
+			name = "watchOS App";
+			productName = "watchOS App";
+			productReference = CDDC992E1DF864DB0059B140 /* InstaPlant.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CDDC993A1DF864DB0059B140 /* watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC99721DF864DB0059B140 /* Build configuration list for PBXNativeTarget "watchOS Extension" */;
+			buildPhases = (
+				CDDC99371DF864DB0059B140 /* Sources */,
+				CDDC99381DF864DB0059B140 /* Frameworks */,
+				CDDC99391DF864DB0059B140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Extension";
+			productName = "watchOS Extension";
+			productReference = CDDC993B1DF864DB0059B140 /* InstaPlant Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CDDC99481DF864DB0059B140 /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC997D1DF864DB0059B140 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				CDDC99451DF864DB0059B140 /* Sources */,
+				CDDC99461DF864DB0059B140 /* Frameworks */,
+				CDDC99471DF864DB0059B140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = tvOS;
+			productReference = CDDC99491DF864DB0059B140 /* InstaPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDDC99561DF864DB0059B140 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDC99801DF864DB0059B140 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				CDDC99531DF864DB0059B140 /* Sources */,
+				CDDC99541DF864DB0059B140 /* Frameworks */,
+				CDDC99551DF864DB0059B140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = CDDC99571DF864DB0059B140 /* InstaPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDC99111DF864DA0059B140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Roger Hart 2";
+				TargetAttributes = {
+					CDDC991D1DF864DA0059B140 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GHRGD2XYRX;
+						ProvisioningStyle = Automatic;
+					};
+					CDDC992D1DF864DA0059B140 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GHRGD2XYRX;
+						ProvisioningStyle = Automatic;
+					};
+					CDDC993A1DF864DB0059B140 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GHRGD2XYRX;
+						ProvisioningStyle = Automatic;
+					};
+					CDDC99481DF864DB0059B140 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GHRGD2XYRX;
+						ProvisioningStyle = Automatic;
+					};
+					CDDC99561DF864DB0059B140 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GHRGD2XYRX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDDC99141DF864DA0059B140 /* Build configuration list for PBXProject "InstaPlant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDC99101DF864DA0059B140;
+			productRefGroup = CDDC991F1DF864DA0059B140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDC991D1DF864DA0059B140 /* iOS */,
+				CDDC992D1DF864DA0059B140 /* watchOS App */,
+				CDDC993A1DF864DB0059B140 /* watchOS Extension */,
+				CDDC99481DF864DB0059B140 /* tvOS */,
+				CDDC99561DF864DB0059B140 /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDC991C1DF864DA0059B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC99641DF864DB0059B140 /* GameScene.sks in Resources */,
+				CDDC99271DF864DA0059B140 /* Main.storyboard in Resources */,
+				CDDC99611DF864DB0059B140 /* Actions.sks in Resources */,
+				CDDC992A1DF864DA0059B140 /* LaunchScreen.storyboard in Resources */,
+				CDDC996C1DF864DB0059B140 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC992C1DF864DA0059B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC996D1DF864DB0059B140 /* Assets.xcassets in Resources */,
+				CDDC99351DF864DB0059B140 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99391DF864DB0059B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC99651DF864DB0059B140 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99471DF864DB0059B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC99511DF864DB0059B140 /* Main.storyboard in Resources */,
+				CDDC99661DF864DB0059B140 /* GameScene.sks in Resources */,
+				CDDC996E1DF864DB0059B140 /* Assets.xcassets in Resources */,
+				CDDC99621DF864DB0059B140 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99551DF864DB0059B140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC995F1DF864DB0059B140 /* Main.storyboard in Resources */,
+				CDDC99671DF864DB0059B140 /* GameScene.sks in Resources */,
+				CDDC996F1DF864DB0059B140 /* Assets.xcassets in Resources */,
+				CDDC99631DF864DB0059B140 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDC991A1DF864DA0059B140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC99681DF864DB0059B140 /* GameScene.swift in Sources */,
+				CDDC99241DF864DA0059B140 /* GameViewController.swift in Sources */,
+				CDDC99221DF864DA0059B140 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99371DF864DB0059B140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC99691DF864DB0059B140 /* GameScene.swift in Sources */,
+				CDDC99431DF864DB0059B140 /* ExtensionDelegate.swift in Sources */,
+				CDDC99411DF864DB0059B140 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99451DF864DB0059B140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC996A1DF864DB0059B140 /* GameScene.swift in Sources */,
+				CDDC994E1DF864DB0059B140 /* GameViewController.swift in Sources */,
+				CDDC994C1DF864DB0059B140 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDC99531DF864DB0059B140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC996B1DF864DB0059B140 /* GameScene.swift in Sources */,
+				CDDC995C1DF864DB0059B140 /* GameViewController.swift in Sources */,
+				CDDC995A1DF864DB0059B140 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDDC99311DF864DB0059B140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDDC992D1DF864DA0059B140 /* watchOS App */;
+			targetProxy = CDDC99301DF864DB0059B140 /* PBXContainerItemProxy */;
+		};
+		CDDC993E1DF864DB0059B140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDDC993A1DF864DB0059B140 /* watchOS Extension */;
+			targetProxy = CDDC993D1DF864DB0059B140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDDC99251DF864DA0059B140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC99261DF864DA0059B140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDC99281DF864DA0059B140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC99291DF864DA0059B140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDC99331DF864DB0059B140 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC99341DF864DB0059B140 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDC994F1DF864DB0059B140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC99501DF864DB0059B140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDC995D1DF864DB0059B140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDC995E1DF864DB0059B140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDDC99701DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDDC99711DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CDDC99731DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "InstaPlant Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		CDDC99741DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "InstaPlant Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		CDDC99771DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				IBSC_MODULE = InstaPlant_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant.watchkitapp;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		CDDC99781DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				IBSC_MODULE = InstaPlant_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant.watchkitapp;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		CDDC997B1DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDC997C1DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDC997E1DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		CDDC997F1DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDC99811DF864DB0059B140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CDDC99821DF864DB0059B140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GHRGD2XYRX;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogerhart.InstaPlant;
+				PRODUCT_NAME = InstaPlant;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDC99141DF864DA0059B140 /* Build configuration list for PBXProject "InstaPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC99701DF864DB0059B140 /* Debug */,
+				CDDC99711DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDC99721DF864DB0059B140 /* Build configuration list for PBXNativeTarget "watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC99731DF864DB0059B140 /* Debug */,
+				CDDC99741DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDDC99761DF864DB0059B140 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC99771DF864DB0059B140 /* Debug */,
+				CDDC99781DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDDC997A1DF864DB0059B140 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC997B1DF864DB0059B140 /* Debug */,
+				CDDC997C1DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDDC997D1DF864DB0059B140 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC997E1DF864DB0059B140 /* Debug */,
+				CDDC997F1DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDDC99801DF864DB0059B140 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDC99811DF864DB0059B140 /* Debug */,
+				CDDC99821DF864DB0059B140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDC99111DF864DA0059B140 /* Project object */;
+}
